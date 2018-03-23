@@ -7,6 +7,11 @@
     background-image: linear-gradient(to right, #ccc, #333, #ccc);
 }
 
+#projectSeparator{
+    	background-color: #fff;
+	border-top: 2px dotted #8c8b8b;
+}
+
 /* ID'S */
 
 #profileImage {
