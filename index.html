@@ -12,103 +12,188 @@
 	<link rel="stylesheet" href="css/styles.css">
 	<!-- icons -->
 	<!-- TODO add icon -->
-
-	<!-- Add icon library -->
+	<!-- Icon library -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand" href="#">DVG</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+		 aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#web">Web Development</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#blockchain">Blockchain</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#experiments">Experiments</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#forked">Forked projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contact">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
 	<div class="container-fluid">
+
 		<!-- Top Image part -->
 		<div class="text-center">
-			<img src="images/sampleImage.png" alt="Profile Picture" class="img-fluid img-rounded" id="profileImage">
+			<img src="images/ich5.png" alt="Profile Picture" class="img-fluid img-rounded" id="profileImage">
 			<h1>Daniel Vera Gilliard</h1>
 			<h3>Web - Blockchain - Tech</h3>
 		</div>
 
+		<!-- Divider -->
 		<hr class="hr0">
 
-		<!-- Current Projects -->
+		<!-- Web Development -->
 		<div class="card">
-			<h3 class="card-header">Current Projects:</h3>
+			<h3 class="card-header" id="web">Web Development:</h3>
 			<div class="card-body">
-			<h4 class="card-title">Blockchain development</h4>
-				<p class="card-text">Learning about Bitcoin Lightning development and writing a Paper about cryptography(German).</p>
-				<a href="https://github.com/daniel-vera-g/zap-desktop" class="btn btn-primary">Zap Wallet</a>
-				<a href="https://github.com/daniel-vera-g/lightning-app" class="btn btn-primary">Lightning Wallet</a>
-				<a href="https://github.com/daniel-vera-g/KryptographieGFS" class="btn btn-primary">German cryptography paper</a>
-			</div>	
+				<h4 class="card-title">Nodejs - Backend:</h4>
+				<a href="https://github.com/daniel-vera-g/microservices" class="btn btn-primary btn-block">A Microservices collection in Nodejs.</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/NodeJs-ToDo-App" class="btn btn-primary btn-block">A Nodejs based TODO application.</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/Small-Nodejs-Programm-collection" class="btn btn-primary btn-block">Nodejs programm collection</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/LoginPage" class="btn btn-primary btn-block">A login page with nodejs</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/MVC-NodeJs-Template" class="btn btn-primary btn-block">A code template for MVC structured Nodejs applications.</a>
+			</div>
 			<hr>
 			<div class="card-body">
-				<h4 class="card-title">Web development</h4>
-				<p class="card-text">Freelancing and writing some backend microservices, that could be useful.</p>
-				<a href="https://github.com/daniel-vera-g/microservices" class="btn btn-primary">Microservices</a>
+				<h4 class="card-title">React - Frontend:</h4>
+				<a href="https://github.com/daniel-vera-g/Frontend-Projects" class="btn btn-primary btn-block">Some beginner frontend HTML pages.</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/MERN-stack-note-taking-app" class="btn btn-primary btn-block">A simple notetaking app with the MERN stack.</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/MERN-App-Boilerplate" class="btn btn-primary btn-block">A Boilerplate for MERN(MongoDB, Express, React, Nodejs) applications.</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/First-React-App" class="btn btn-primary btn-block">First react app from the official react documentation.</a>
 			</div>
 		</div>
+
+		<!-- Divider -->
 		<hr class="hr0">
 
-		<!-- Other Projects -->
+		<!-- Blockchain -->
 		<div class="card">
-			<h3 class="card-header">Other Projects</h3>
+			<h3 class="card-header" id="blockchain">Blockchain technology:</h3>
 			<div class="card-body">
-				<h4 class="card-title">Web development</h4>
-				<p class="card-text">Collection of small Microservice programs.</p>
-				<a href="https://github.com/daniel-vera-g/microservices" class="btn btn-primary">Microservices</a>
-				<hr id="projectSeparator">
-				<p class="card-text">A Nodejs based TO-DO application</p>
-				<a href="https://github.com/daniel-vera-g/NodeJs-ToDo-App" class="btn btn-primary">TO-DO app</a>
-				<hr id="projectSeparator">
-				<p class="card-text">Nodejs programm collection</p>
-				<a href="https://github.com/daniel-vera-g/Small-Nodejs-Programm-collection" class="btn btn-primary">Programm collections</a>
-				<hr id="projectSeparator">
-				<p class="card-text">Some beginner frontend projects</p>
-				<a href="https://github.com/daniel-vera-g/Frontend-Projects" class="btn btn-primary">Frontend projects</a>
-				<hr id="projectSeparator">
-				<p class="card-text">A log in page with nodejs</p>
-				<a href="https://github.com/daniel-vera-g/LoginPage" class="btn btn-primary">Log in application</a>
+				<h4 class="card-title">A Research paper about the cryptography in the Bitcoin Blockchain(German language):</h4>
+				<a href="https://github.com/daniel-vera-g/KryptographieGFS" class="btn btn-primary btn-block">Research paper.</a>
 			</div>
 			<hr>
 			<div class="card-body">
-				<h4 class="card-title">Blockchain - Decentralized applications</h4>
-				<p class="card-text">A a sample DAPP based on truffle and nodejs</p>
-				<a href="https://github.com/daniel-vera-g/sampleDAPP" class="btn btn-primary">Sample DAPP</a>
+				<h4 class="card-title">Code implementations:</h4>
+				<a href="https://github.com/daniel-vera-g/lightningStore" class="btn btn-primary btn-block">A sample online store with bitcoin lightning payment integration.</a>
 				<hr id="projectSeparator">
-				<p class="card-text">Paper about the cryptography in the Bitcoin Blockchain</p>
-				<a href="https://github.com/daniel-vera-g/KryptographieGFS" class="btn btn-primary">Bitcoin cryptography paper</a>
+				<a href="https://github.com/daniel-vera-g/sampleDAPP" class="btn btn-primary btn-block">A a sample Ethereum-DAPP based on truffle and nodejs.</a>
 				<hr id="projectSeparator">
-				<p class="card-text">Small JavaScript Blockchain</p>
-				<a href="https://github.com/daniel-vera-g/dvgCoin" class="btn btn-primary">Small JS Blockchain</a>
+				<a href="https://github.com/daniel-vera-g/dvgCoin" class="btn btn-primary btn-block">Small JavaScript Blockchain.</a>
 				<hr id="projectSeparator">
-				<p class="card-text">Voting DAPP based on the ethereum Blockchain</p>
-				<a href="https://github.com/daniel-vera-g/firstDecentralizedApplication" class="btn btn-primary">Voting DAPP</a>
-			</div>
-			<hr>
-			<div class="card-body">
-				<h4 class="card-title">Experiments</h4>
-				<p class="card-text">A collection of Cheat Sheets.</p>
-				<a href="https://github.com/daniel-vera-g/Cheat_Sheets" class="btn btn-primary">Cheat Sheets</a>
+				<a href="https://github.com/daniel-vera-g/firstDecentralizedApplication" class="btn btn-primary btn-block">Voting Ethereum-DAPP.</a>
 				<hr id="projectSeparator">
-				<p class="card-text">A collection of basic assembly programms, about foundational assembly knowledge</p>
-				<a href="https://github.com/daniel-vera-g/basicAssemblyProgramms" class="btn btn-primary">Assembly programms</a>
-				<hr id="projectSeparator">
-				<p class="card-text">An Android App that uses the Google books API to display a list of published books from a specific topic.</p>
-				<a href="https://github.com/daniel-vera-g/Book-Listing-App" class="btn btn-primary">Android Book listing app</a>
-				<hr id="projectSeparator">
-				<p class="card-text">An android app with a list of Attractions in the town of Karlsruhe</p>
-				<a href="https://github.com/daniel-vera-g/KarlsruheAttractions-App" class="btn btn-primary">Android Book listing app</a>
-				<hr id="projectSeparator">
-				<p class="card-text">Android tutorials I used to learn android programming</p>
-				<a href="https://github.com/daniel-vera-g/AndroidTutorials" class="btn btn-primary">Android tutorials</a>
-				<hr id="projectSeparator">
-				<p class="card-text">A recursive programm to display the fibonacci numbers from 1 to 5 in Visual Basic</p>
-				<a href="https://github.com/daniel-vera-g/SDT-Project2" class="btn btn-primary">Recursive fibonacci programm</a>
+				<a href="https://github.com/daniel-vera-g/DVG-Coin" class="btn btn-primary btn-block">First Blockchain project, where I build a simple Blockchain in javascript.</a>
 			</div>
 		</div>
+
+		<!-- Divider -->
 		<hr class="hr0">
 
-		
+		<!-- Experiments -->
+		<div class="card">
+			<h3 class="card-header" id="experiments">Experiments:</h3>
+			<div class="card-body">
+				<h4 class="card-title">Cheat sheets:</h4>
+				<a href="https://github.com/daniel-vera-g/Cheat_Sheets" class="btn btn-primary btn-block">A collection of technical cheat sheets.</a>
+			</div>
+			<hr>
+			<div class="card-body">
+				<h4 class="card-title">A collection of basic assembly(x51) programs, about foundational assembly knowledge:</h4>
+				<a href="https://github.com/daniel-vera-g/basicAssemblyProgramms" class="btn btn-primary btn-block">Assembly programs.</a>
+			</div>
+			<hr>
+			<div class="card-body">
+				<h4 class="card-title">A recursive program to display the fibonacci numbers from 1 to 5 in Visual Basic.</h4>
+				<a href="https://github.com/daniel-vera-g/SDT-Project2" class="btn btn-primary btn-block">Fibonacci program.</a>
+			</div>
+			<hr>
+			<div class="card-body">
+				<h4 class="card-title">Android development:</h4>
+				<p class="card-description">An Android App that uses the Google books API to display a list of published books from a specific topic:</p>
+				<a href="https://github.com/daniel-vera-g/Book-Listing-App" class="btn btn-primary btn-block">Book listing app.</a>
+				<hr id="projectSeparator">
+				<p class="card-description">An android app with a list of attractions in Karlsruhe.</p>
+				<a href="https://github.com/daniel-vera-g/KarlsruheAttractions-App" class="btn btn-primary btn-block">Karlsruhe attraction app.</a>
+				<hr id="projectSeparator">
+				<p class="card-description">Android tutorials I used to learn android programming:</p>
+				<a href="https://github.com/daniel-vera-g/AndroidTutorials" class="btn btn-primary btn-block">Android tutorials.</a>
+			</div>
+		</div>
+
+		<!-- Divider -->
+		<hr class="hr0">
+
+		<!-- Forked Repositories to work on -->
+		<div class="card">
+			<h3 class="card-header" id="forked">Forked Repositories to work on:</h3>
+			<div class="card-body">
+				<h4 class="card-title">Bitcoin:</h4>
+				<a href="https://github.com/daniel-vera-g/zap-desktop" class="btn btn-primary btn-block">Zap Wallet</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/lightning-app" class="btn btn-primary btn-block">Lightning Wallet</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/bcoin" class="btn btn-primary btn-block">bcoin</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/blockchain-demo" class="btn btn-primary btn-block">Blockchain Demo</a>
+				<hr id="projectSeparator">
+				<a href="https://github.com/daniel-vera-g/bitcoin-2-of-3-multisig" class="btn btn-primary btn-block">bitcoin-2-of-3-multisig</a>
+			</div id="last">
+		</div>
+
+		<!-- Divider -->
+		<hr class="hr0">
+
 	</div>
 	<!-- end container -->
+
+	<footer class="footer">
+			<p class="text-center" id="contact"	>Contact</p>
+		<div class="container">
+			<!-- Add font awesome icons -->
+			<div class="row">
+				<div class="col-md-2">
+					<a href="https://twitter.com/" class="fa fa-twitter"></a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.linkedin.com/in/daniel-vg-b87568146/" class="fa fa-linkedin"></a>
+				</div>
+				<div class="text-center col-md-4">
+					<a href="https://plus.google.com/u/0/112573990775900490817" class="fa fa-google"></a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+				</div>
+				<div class="col-md-2">
+					<a href="https://www.instagram.com/?hl=de" class="fa fa-instagram"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
