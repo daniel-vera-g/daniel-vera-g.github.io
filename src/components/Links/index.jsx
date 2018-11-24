@@ -33,11 +33,7 @@ class Links extends React.Component {
             </a>
           </li>
           <li className="links__list-item">
-            <a
-              href={`https://www.github.com/${links.github}`}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href={`mailto:${links.email}`} target="_blank" rel="noopener noreferrer">
               <i className="icon-mail" />
             </a>
           </li>
