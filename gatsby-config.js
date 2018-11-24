@@ -3,15 +3,15 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
+    // url: 'https://lumen.netlify.com',
+    title: 'Daniel Vera Gilliard',
     subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+      'Just another guy interested in Web Development, Distributed Systems, Linux and Cryptography.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
-        label: 'Articles',
+        label: 'Blog',
         path: '/',
       },
       {
@@ -24,13 +24,10 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Daniel Vera Gillard',
+      email: 'danielveragi@gmail.com',
+      twitter: 'https://twitter.com/DVG3012',
+      github: 'https://twitter.com/DVG3012',
     },
   },
   plugins: [
