@@ -3,7 +3,7 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    // url: 'https://lumen.netlify.com',
+    url: 'https://daniel-vera-g.github.io',
     title: 'Daniel Vera Gilliard',
     subtitle:
       'Just another guy interested in Web Development, Distributed Systems, Linux and Cryptography.',
@@ -26,8 +26,8 @@ module.exports = {
     author: {
       name: 'Daniel Vera Gillard',
       email: 'danielveragi@gmail.com',
-      twitter: 'https://twitter.com/DVG3012',
-      github: 'https://twitter.com/DVG3012',
+      twitter: 'DVG3012',
+      github: 'daniel-vera-g',
     },
   },
   plugins: [
