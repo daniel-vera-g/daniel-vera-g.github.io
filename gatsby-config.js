@@ -6,7 +6,7 @@ module.exports = {
     url: 'https://daniel-vera-g.github.io',
     title: 'Daniel Vera Gilliard',
     subtitle:
-      'Just another guy interested in Web Development, Distributed Systems, Linux and Cryptography.',
+      'Personal website and blog of Daniel Vera Gilliard',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     twitterUsername: "@DVG3012",
