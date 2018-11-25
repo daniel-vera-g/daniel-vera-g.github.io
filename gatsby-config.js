@@ -9,6 +9,7 @@ module.exports = {
       'Just another guy interested in Web Development, Distributed Systems, Linux and Cryptography.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
+    twitterUsername: "@DVG3012",
     menu: [
       {
         label: 'Blog',
