@@ -6,16 +6,21 @@ path: "/about"
 
 ### Current interests
 
-1. Web development
+| 1. Web development  &nbsp;  &nbsp; |  2. Distributed systems  &nbsp;  &nbsp; | 3. Security  &nbsp; &nbsp; |  &nbsp; 4. Other
+--- | --- | --- | ---
+Backend | Bitcoin |  Web Security |  &nbsp; Linux
+Nodejs  | Lightning Network | Cryptography |
+
+<!-- 1. Web development
 	* Backend
 	* Nodejs
-2. Distributed systems
+1. Distributed systems
 	* Bitcoin
 	* Lightning Network
 	* Linux
 3. Security
 	* Web security
-	* Cryptography
+	* Cryptography -->
 
 ### Active projects
 

@@ -1,14 +1,13 @@
 ---
 title: New website and blog
-date: "2016-09-01T23:46:37.121Z"
+date: "2019-11-25"
 layout: post
 draft: false
-path: "/posts/perfecting-the-art-of-perfection/"
-category: "Design Inspiration"
+path: "/posts/2018-11-25-new-website-blog/"
+category: "general"
 tags:
-  - "Handwriting"
-  - "Learning to write"
-description: "Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum."
+  - "general" 
+description: "A short intro to my new website"
 ---
 
 Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Morbi lacinia molestie dui. Praesent blandit dolor. Sed non quam. In vel mi sit amet augue congue elementum.
