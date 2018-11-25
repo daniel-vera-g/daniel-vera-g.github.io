@@ -12,6 +12,7 @@ path: "/about"
 2. Distributed systems
 	* Bitcoin
 	* Lightning Network
+	* Linux
 3. Security
 	* Web security
 	* Cryptography
