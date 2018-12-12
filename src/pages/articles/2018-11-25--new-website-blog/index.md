@@ -12,6 +12,9 @@ description: "A short intro to my new website"
 
 ## Backstory
 
+This website has got three iterations.  
+The first one was build using plain HTML, CSS and Bootstrap. My design skills are not the best, that's why I decided to use a Bootstrap Te
+
 ## Gatsby
 
 ## Current workflow
