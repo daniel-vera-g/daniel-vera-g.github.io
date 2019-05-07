@@ -9,14 +9,17 @@ const getContactHref = (name: string, contact: string) => {
     case 'github':
       href = `https://github.com/${contact}`;
       break;
-    case 'vkontakte':
-      href = `https://vk.com/${contact}`;
+    case 'keybase':
+      href = `https://keybase.io/${contact}`;
       break;
-    case 'telegram':
-      href = `telegram:${contact}`;
+    case 'mastodon':
+      href = 'https://mastodon.technology/@dvg';
       break;
     case 'email':
       href = `mailto:${contact}`;
+      break;
+    case 'linkedin':
+      href = 'https://www.linkedin.com/in/daniel-vera-gilliard-b87568146/';
       break;
     default:
       href = contact;

@@ -24,15 +24,15 @@ module.exports = {
   ],
   author: {
     name: 'Daniel Vera Gilliard',
-    photo: '/photo.jpg',
-    bio: 'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    photo: '/profile.jpeg',
+    bio: 'Personal website and blog.',
     contacts: {
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vkontakte: '#'
+      email: 'danielveragi@gmail.com',
+      mastodon: 'https://mastodon.technology/@dvg',
+      twitter: 'DVG3012',
+      github: 'daniel-vera-g/',
+      linkedin: 'https://www.linkedin.com/in/daniel-vera-gilliard-b87568146/',
+      keybase: 'dvg'
     }
   }
 };
