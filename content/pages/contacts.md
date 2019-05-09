@@ -3,28 +3,12 @@ title: "Contact me"
 template: "page"
 ---
 
-Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.
+You can find me on different platforms.
 
-Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui.
+Feel free to direct message me on [Twitter](https://twitter.com/DVG3012) or [LinkedIn](https://www.linkedin.com/in/daniel-vera-gilliard-b87568146/)
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/media/image-4.jpg)
+I publish most of my personal projects on [Github](https://github.com/daniel-vera-g/), take a look if you are interested.
 
-*Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.*
-
-## Header Level 2
-
-Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.
-
-+ **Lorem ipsum** dolor sit amet, consectetuer adipiscing elit.
-+ Aliquam tincidunt mauris eu risus.
-+ Vestibulum auctor dapibus neque.
-
-### Header Level 3
-
-Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec **consectetuer** ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.
-
-Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.
-
-#### Header Level 4
-
-Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est.
+It is also possible to send me an Email to [danielveragi@gmail.com](mailto:danielveragi@gmail.com).  
+My 4096 bit GPG key fingerprint: `6801 C794 C170 906E C260 8F40 CEBB D7D1 3F1E 01E3`.  
+My full GPG public key can be found [Keybase](https://keybase.io/dvg).
