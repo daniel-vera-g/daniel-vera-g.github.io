@@ -1,16 +1,27 @@
+# language: node_js
+# node_js:
+#   - '8'
+#   - '9'
+#   - '10'
+# install:
+#   - npm install -g codecov
+# script:
+#   - yarn install
+#   - yarn lint
+#   - yarn test:coverage --runInBand --no-cache
+#   - yarn test --runInBand --no-cache
+#   - codecov
+# cache:
+#   directories:
+#     - node_modules
+
 language: node_js
+os:
+  - linux
+
 node_js:
-  - '8'
-  - '9'
-  - '10'
-install:
-  - npm install -g codecov
+  - stable
+
 script:
-  - yarn install
-  - yarn lint
-  - yarn test:coverage --runInBand --no-cache
-  - yarn test --runInBand --no-cache
-  - codecov
-cache:
-  directories:
-    - node_modules
+  - yarn build
+  - bash ./script/deploy-to-gh-pages.sh
