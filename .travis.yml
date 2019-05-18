@@ -15,39 +15,39 @@
 #   directories:
 #     - node_modules
 
-# language: node_js
-# os:
-#   - linux
-
-# node_js:
-#   - stable
-
-# script:
-#   - yarn build
-#   - bash ./scripts/deploy-to-gh-pages.sh
-
 language: node_js
-cache:
-  directories:
-    - ~/.npm
-# notifications:
-#   email:
-#     recipients:
-#       - 
-#     on_success: always
-#     on_failure: always
+os:
+  - linux
+
 node_js:
-  - '9'
-git:
-  depth: 3
+  - stable
+
 script:
   - yarn build
-deploy:
-  provider: pages
-  skip-cleanup: true
-  keep-history: true
-  github-token: $github_token
-  dir: public
-  target-branch: master
-  on:
-    branch: develop
+  - bash ./scripts/deploy-to-gh-pages.sh
+
+# language: node_js
+# cache:
+#   directories:
+#     - ~/.npm
+# # notifications:
+# #   email:
+# #     recipients:
+# #       - 
+# #     on_success: always
+# #     on_failure: always
+# node_js:
+#   - '9'
+# git:
+#   depth: 3
+# script:
+#   - yarn build
+# deploy:
+#   provider: pages
+#   skip-cleanup: true
+#   keep-history: true
+#   github-token: $github_token
+#   dir: public
+#   target-branch: master
+#   on:
+#     branch: develop

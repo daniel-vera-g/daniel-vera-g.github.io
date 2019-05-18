@@ -28,3 +28,4 @@ To round up, Gatsby gives me a simple way to rapidly set up a great blog, which 
 # Travis
 
 Use Travis for CA
+Some changes
