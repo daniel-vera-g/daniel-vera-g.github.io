@@ -24,4 +24,4 @@ node_js:
 
 script:
   - yarn build
-  - bash ./script/deploy-to-gh-pages.sh
+  - bash ./scripts/deploy-to-gh-pages.sh
