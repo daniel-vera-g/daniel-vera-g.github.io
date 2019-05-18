@@ -24,8 +24,3 @@ The reasons for this were clear:
 I went with the [Gatsby starter Lumen](https://github.com/alxshelepenok/gatsby-starter-lumen) theme, because of its simplicity and active development.  
 
 To round up, Gatsby gives me a simple way to rapidly set up a great blog, which scales well in the future and looks nice.  As next steps, I will probably add a dark theme and some features like searching by tags or keywords.  Maybe in the future, I will consider changing to a plain HTML and CSS based site, as I find minimalistic sites like the one of [Patrick Collison](https://patrickcollison.com/about) or [this one](https://jrl.ninja/) pretty nice.
-
-# Travis
-
-Use Travis for CA
-Some changes
