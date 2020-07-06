@@ -3,7 +3,7 @@ title: "About me"
 template: "page"
 ---
 
-I am Interested in new technologies and their long term effects.  
+I am Interested in new technologies and their long term effects.
 
 Some topics I am currently interested in:
 
@@ -11,7 +11,10 @@ Some topics I am currently interested in:
 2. Distributed computing
 3. Encryption
 4. Web development
+5. Flutter
+
+A broad list of my current interests is refleted in my current github projects.
 
 <!-- 4. Web/Mobile(Cross platform) development -->
 
-In particular, my aim is to make protocols like the bitcoin lightning network accessible on different platforms.
+<!-- In particular, my aim is to make protocols like the bitcoin lightning network accessible on different platforms. -->
