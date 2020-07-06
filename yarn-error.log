@@ -1,0 +1,147 @@
+Arguments: 
+  /home/dvg/.nvm/versions/node/v12.15.0/bin/node /usr/share/yarn/bin/yarn.js run clean
+
+PATH: 
+  /home/dvg/.nvm/versions/node/v12.15.0/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/dvg/workspace/private/daniel-vera-g.github.io/node_modules/.bin:/home/dvg/.yarn/bin:/home/dvg/.config/yarn/global/node_modules/.bin:/home/dvg/.oh-my-zsh/custom/plugins/git-open:/home/dvg/.pyenv/plugins/pyenv-virtualenv/shims:/home/dvg/.pyenv/shims:/home/dvg/.pyenv/bin:/opt/gradle/gradle-6.4.1/bin:/home/dvg/bin:/usr/local/bin:/home/dvg/.yarn/bin:/home/dvg/.config/yarn/global/node_modules/.bin:/home/dvg/.oh-my-zsh/custom/plugins/git-open:/home/dvg/.pyenv/plugins/pyenv-virtualenv/shims:/home/dvg/.pyenv/shims:/home/dvg/.pyenv/bin:/opt/gradle/gradle-6.4.1/bin:/home/dvg/bin:/usr/local/bin:/home/dvg/.yarn/bin:/home/dvg/.config/yarn/global/node_modules/.bin:/home/dvg/.oh-my-zsh/custom/plugins/git-open:/home/dvg/.pyenv/plugins/pyenv-virtualenv/shims:/home/dvg/.pyenv/shims:/home/dvg/.pyenv/bin:/opt/gradle/gradle-6.4.1/bin:/home/dvg/bin:/usr/local/bin:/home/dvg/.cargo/bin:/home/dvg/bin:/home/dvg/.local/bin:/home/dvg/.nvm/versions/node/v12.15.0/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/dvg/.fzf/bin:/usr/local/go/bin:/home/dvg/workspace/go/bin:/home/dvg/workspace/mobile/flutter/bin:/home/dvg/workspace/mobile/flutter/.pub-cache/bin:/usr/lib/dart/bin:/home/dvg/.pub-cache/bin:/usr/local/go/bin:/home/dvg/workspace/go/bin:/home/dvg/workspace/mobile/flutter/bin:/home/dvg/workspace/mobile/flutter/.pub-cache/bin:/usr/lib/dart/bin:/home/dvg/.pub-cache/bin:/usr/local/go/bin:/home/dvg/workspace/go/bin:/home/dvg/workspace/mobile/flutter/bin:/home/dvg/workspace/mobile/flutter/.pub-cache/bin:/usr/lib/dart/bin:/home/dvg/.pub-cache/bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  TypeError: Cannot create property 'mit-' on string 'ISC'
+      at set (/usr/share/yarn/lib/cli.js:53901:28)
+      at set (/usr/share/yarn/lib/cli.js:53915:14)
+      at set (/usr/share/yarn/lib/cli.js:53895:16)
+      at Function.objectPath.set (/usr/share/yarn/lib/cli.js:53948:14)
+      at NpmRegistry.mergeEnv (/usr/share/yarn/lib/cli.js:96096:18)
+      at NpmRegistry.<anonymous> (/usr/share/yarn/lib/cli.js:31899:12)
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:328:14
+      at new Promise (<anonymous>)
+
+npm manifest: 
+  {
+    "version": "3.0.0",
+    "name": "gatsby-starter-lumen",
+    "description": "A minimal, lightweight and mobile-first starter for creating blazing-fast static blogs",
+    "main": "n/a",
+    "scripts": {
+      "develop": "yarn run clean && gatsby develop",
+      "build": "yarn run clean && gatsby build",
+      "deploy": "yarn run clean && gatsby build --prefix-paths && gh-pages -d public",
+      "clean": "rimraf .cache public",
+      "flow": "flow",
+      "lint:js": "eslint --cache --ext .js,.jsx --ignore-pattern public .",
+      "lint:scss": "stylelint \"src/**/*.scss\"",
+      "lint": "concurrently \"yarn run lint:js\" \"yarn run lint:scss\" \"yarn flow\"",
+      "test": "jest --config ./tests/jest-config.js",
+      "test:coverage": "jest --coverage --config ./tests/jest-config.js",
+      "test:watch": "jest --watch --config ./tests/jest-config.js"
+    },
+    "keywords": [
+      "gatsby",
+      "graphql",
+      "netlify",
+      "netlify-cms",
+      "pagination",
+      "categories",
+      "tags",
+      "prismjs",
+      "static",
+      "lost",
+      "blog",
+      "minimal",
+      "react",
+      "theme",
+      "starter",
+      "disqus"
+    ],
+    "dependencies": {
+      "bluebird": "^3.5.4",
+      "classnames": "^2.2.6",
+      "codecov": "^3.3.0",
+      "gatsby": "^2.19.17",
+      "gatsby-link": "^2.0.16",
+      "gatsby-plugin-catch-links": "^2.0.13",
+      "gatsby-plugin-feed": "^2.1.0",
+      "gatsby-plugin-flow": "^1.0.4",
+      "gatsby-plugin-google-gtag": "^1.0.16",
+      "gatsby-plugin-manifest": "^2.0.26",
+      "gatsby-plugin-netlify": "^2.0.13",
+      "gatsby-plugin-netlify-cms": "^3.0.17",
+      "gatsby-plugin-offline": "^2.0.25",
+      "gatsby-plugin-react-helmet": "^3.0.12",
+      "gatsby-plugin-sass": "^2.0.11",
+      "gatsby-plugin-sharp": "^2.0.32",
+      "gatsby-plugin-sitemap": "^2.0.11",
+      "gatsby-remark-autolink-headers": "^2.0.16",
+      "gatsby-remark-copy-linked-files": "^2.0.11",
+      "gatsby-remark-images": "^3.0.10",
+      "gatsby-remark-katex": "^3.0.4",
+      "gatsby-remark-prismjs": "^3.2.7",
+      "gatsby-remark-relative-images": "^0.2.3",
+      "gatsby-remark-responsive-iframe": "^2.1.1",
+      "gatsby-remark-smartypants": "^2.0.9",
+      "gatsby-source-filesystem": "^2.0.28",
+      "gatsby-transformer-remark": "^2.3.8",
+      "gatsby-transformer-sharp": "^2.1.17",
+      "invariant": "^2.2.4",
+      "katex": "^0.10.1",
+      "lodash": "^4.17.15",
+      "moment": "^2.24.0",
+      "netlify-cms": "^2.9.1",
+      "node-sass": "^4.13.1",
+      "normalize-scss": "^7.0.1",
+      "prismjs": "^1.16.0",
+      "react": "^16.8.6",
+      "react-disqus-comments": "^1.4.0",
+      "react-dom": "^16.8.6",
+      "react-helmet": "^5.2.1"
+    },
+    "devDependencies": {
+      "@babel/core": "7.0.0",
+      "@babel/plugin-proposal-class-properties": "7.0.0",
+      "@babel/plugin-proposal-optional-chaining": "7.0.0",
+      "@babel/plugin-transform-flow-strip-types": "^7.4.0",
+      "@babel/preset-env": "7.0.0",
+      "@babel/preset-react": "7.0.0",
+      "autoprefixer": "9.5.1",
+      "babel-core": "7.0.0-bridge.0",
+      "babel-eslint": "10.0.1",
+      "babel-jest": "23.6.0",
+      "browserslist": "4.5.6",
+      "concurrently": "4.1.0",
+      "eslint": "5.16.0",
+      "eslint-config-airbnb-base": "13.1.0",
+      "eslint-plugin-import": "2.17.2",
+      "eslint-plugin-jest": "22.5.1",
+      "eslint-plugin-jsx-a11y": "6.2.1",
+      "eslint-plugin-react": "7.12.4",
+      "eslint-watch": "5.1.2",
+      "flow-bin": "^0.98.0",
+      "gh-pages": "2.0.1",
+      "identity-obj-proxy": "3.0.0",
+      "jest": "23.6.0",
+      "jest-cli": "23.6.0",
+      "lost": "8.3.1",
+      "postcss-pxtorem": "4.0.1",
+      "react-test-renderer": "16.8.6",
+      "rimraf": "2.6.3",
+      "stylelint": "10.0.1",
+      "stylelint-config-recommended-scss": "3.3.0",
+      "stylelint-scss": "3.6.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
