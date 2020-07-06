@@ -19,7 +19,7 @@
 ```
 $ git clone https://github.com/daniel-vera-g/daniel-vera-g.github.io/
 $ yarn
-$ npm run develop
+$ yarn run develop
 ```
 
 ## Credits
