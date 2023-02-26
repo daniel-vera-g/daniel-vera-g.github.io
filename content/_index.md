@@ -8,8 +8,6 @@ draft: false
 
 Hi there! My name is Daniel and I'm a computer science student with a passion for distributed systems, cloud computing and technology in general. From my earliest days tinkering with computers, I've been fascinated by the power of technology to solve complex problems.
 
-<!-- On this site, I'll be sharing my thoughts and experiences on a wide range of topics, including tech and probably some future travel experiences. Whether it's a new tool or framework or an exploration of the latest trends and developments in the industry, I'm always eager to share my insights and connect with fellow enthusiasts. -->
-
 When I'm not coding or writing, you can usually find me exploring the great outdoors. I'm an avid climber and boulderer as well as an enthusiastic runner, always looking for new routes to conquer.
 
 #### Contact
