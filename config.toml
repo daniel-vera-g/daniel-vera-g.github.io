@@ -9,29 +9,29 @@ copyright = "&copy; 2023, Daniel Vera Gilliard"
 
 # Main menu items
 [menu]
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    title = "About"
-    url = "/about/"
-    weight = -110
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    title = "Posts"
-    url = "/post/"
-    weight = -100
-  [[menu.main]]
-    identifier = "categories"
-    name = "Categories"
-    title = "Categories"
-    url = "/categories/"
-    weight = -90
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   title = "About"
+  #   url = "/about/"
+  #   weight = -110
+  # [[menu.main]]
+  #   identifier = "posts"
+  #   name = "Posts"
+  #   title = "Posts"
+  #   url = "/post/"
+  #   weight = -100
+  # [[menu.main]]
+  #   identifier = "categories"
+  #   name = "Categories"
+  #   title = "Categories"
+  #   url = "/categories/"
+  #   weight = -90
 
 # Configuration Features
 [params]
   description = "Personal website"      # Your meta description of the site
-  header_title = "Daniel Vera Gilliard"                 # Your header title
+  header_title = "Daniel VG"                 # Your header title
   header_subtitle = "CS Student | Software Engineer | Baden-Württemberg, Germany" # Your header subtitle
   home_image = "/images/avatar.png"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
