@@ -31,7 +31,7 @@ copyright = "&copy; 2023, Daniel Vera Gilliard"
 # Configuration Features
 [params]
   description = "Personal website"      # Your meta description of the site
-  header_title = "Daniel VG"                 # Your header title
+  header_title = "Daniel Vera Gilliard"                 # Your header title
   header_subtitle = "CS Student | Software Engineer | Baden-Württemberg, Germany" # Your header subtitle
   home_image = "/images/avatar.png"          # Path to header image starting from the static directory
   recent_posts = 5                           # Max amount of recent posts to show
