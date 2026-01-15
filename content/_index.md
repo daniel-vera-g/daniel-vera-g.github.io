@@ -6,9 +6,9 @@ draft: false
 
 #### About
 
-Hi there! My name is Daniel and I'm a computer science student with a passion for distributed systems, cloud computing and technology in general. From my earliest days tinkering with computers, I've been fascinated by the power of technology to solve complex problems.
+Hi there! My name is Daniel and I'm a Cloud Security Consultant with a passion for distributed systems, cloud computing and technology in general. From my earliest days tinkering with computers, I've been fascinated by the power of technology to solve complex problems.
 
-When I'm not coding or writing, you can usually find me exploring the great outdoors. I'm an avid climber and boulderer as well as an enthusiastic runner, always looking for new routes to conquer.
+When I'm not coding or writing, you can usually find me exploring the great outdoors. I'm an avid cyclist as well as an enthusiastic runner, always looking for new routes to conquer.
 
 #### Contact
 
